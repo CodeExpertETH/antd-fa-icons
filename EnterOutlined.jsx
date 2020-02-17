@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function(props) {
-  return (null);
-}
+export default React.forwardRef(function(props, ref) {
+  return <span>''</span>;
+})

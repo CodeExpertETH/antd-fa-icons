@@ -2,6 +2,6 @@ import React from 'react';
 import { faTrashAlt as icon } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon as Fa } from '@fortawesome/react-fontawesome';
 
-export default function(props) {
-  return (<Fa {...props} icon={icon} />);
-}
+export default React.forwardRef(function(props, ref) {
+  return (<Fa {...props} ref={ref} icon={icon} />);
+})
