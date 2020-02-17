@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "createTemplates": "node ./scripts/generateIconTemplates.js"
+    "createTemplates": "node ./scripts/generateIconTemplates.js",
+    "build": "npm run clean-build && babel ./icons -d .",
+    "lint": "eslint .",
+    "autoformat": "npm run lint -- --fix",
+    "clean-build": "rm -rf ./*.jsx"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +20,54 @@
     "@fortawesome/free-regular-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.7"
-  }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "babel-plugin-transform-imports": "^1.5.1"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "rules": {
+      "import/no-named-as-default": "off",
+      "import/no-named-as-default-member": "off",
+      "import/named": "off",
+      "prefer-destructuring": "off",
+      "no-underscore-dangle": "off",
+      "import/prefer-default-export": "off",
+      "class-methods-use-this": "off",
+      "object-curly-newline": [
+        "error",
+        {
+          "consistent": true
+        }
+      ],
+      "function-paren-newline": [
+        "error",
+        "consistent"
+      ]
+    }
+  },
+  "eslintIgnore": [
+    "/dist"
+  ]
 }
