@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _faTimesCircle = require("@fortawesome/free-regular-svg-icons/faTimesCircle");
 
-var _AntdIcon = _interopRequireDefault(require("./AntdIcon"));
+var _AntdIcon = _interopRequireDefault(require("./components/AntdIcon"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -25,3 +25,4 @@ var Icon = function Icon(props, ref) {
 var _default = _react["default"].forwardRef(Icon);
 
 exports["default"] = _default;
+module.exports = exports.default;

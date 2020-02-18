@@ -53,18 +53,17 @@ var Icon = function Icon(props, ref) {
     tabIndex: iconTabIndex,
     onClick: onClick,
     className: classString
-  }), _react["default"].createElement(_reactFontawesome.FontAwesomeIcon, _extends({}, props, {
+  }), _react["default"].createElement(_reactFontawesome.FontAwesomeIcon, {
     ref: ref,
     icon: icon,
     className: svgClassString,
     style: svgStyle
-  })));
+  }));
 };
 
 Icon.displayName = 'AntdIcon';
-Icon.getTwoToneColor = getTwoToneColor;
-Icon.setTwoToneColor = setTwoToneColor;
 
 var _default = _react["default"].forwardRef(Icon);
 
 exports["default"] = _default;
+module.exports = exports.default;

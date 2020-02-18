@@ -6,10 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "createTemplates": "node ./scripts/generateIconTemplates.js",
-    "build": "npm run clean-build && babel ./icons -d .",
-    "lint": "eslint .",
-    "autoformat": "npm run lint -- --fix",
-    "clean-build": "rm -rf ./*.jsx"
+    "build": "npm run clean-build && npm run createTemplates && babel ./icons -d . && npm run clean-prepublish",
+    "clean-build": "rm -rf ./*.js",
+    "clean-prepublish": "rm -rf ./icons/*.*"
   },
   "keywords": [],
   "author": "",
@@ -43,8 +42,11 @@
     "@babel/plugin-syntax-import-meta": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
+    "lodash.template": "^4.5.0",
     "babel-loader": "^8.0.0",
-    "babel-plugin-transform-imports": "^1.5.1"
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-transform-imports": "^1.5.1",
+    "csv-parser": "^2.3.2"
   },
   "eslintConfig": {
     "extends": "airbnb",

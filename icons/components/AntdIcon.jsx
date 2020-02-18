@@ -56,13 +56,11 @@ const Icon = (props, ref) => {
       onClick={onClick}
       className={classString}
     >
-       <Fa {...props} ref={ref} icon={icon} className={svgClassString} style={svgStyle} />
+       <Fa ref={ref} icon={icon} className={svgClassString} style={svgStyle} />
     </span>
   );
 };
 
 Icon.displayName = 'AntdIcon';
-Icon.getTwoToneColor = getTwoToneColor;
-Icon.setTwoToneColor = setTwoToneColor;
 
 export default React.forwardRef(Icon);

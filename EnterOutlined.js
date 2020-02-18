@@ -7,10 +7,22 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _faEdit = require("@fortawesome/free-regular-svg-icons/faEdit");
+
+var _AntdIcon = _interopRequireDefault(require("./components/AntdIcon"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _default = _react["default"].forwardRef(function (props, ref) {
-  return _react["default"].createElement("span", null, "''");
-});
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+var Icon = function Icon(props, ref) {
+  return _react["default"].createElement(_AntdIcon["default"], _extends({}, props, {
+    ref: ref,
+    icon: _faEdit.faEdit
+  }));
+};
+
+var _default = _react["default"].forwardRef(Icon);
 
 exports["default"] = _default;
+module.exports = exports.default;
