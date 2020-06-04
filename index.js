@@ -165,6 +165,12 @@ Object.defineProperty(exports, "EyeOutlined", {
     return _EyeOutlined["default"];
   }
 });
+Object.defineProperty(exports, "EyeTwoTone", {
+  enumerable: true,
+  get: function get() {
+    return _EyeTwoTone["default"];
+  }
+});
 Object.defineProperty(exports, "FileOutlined", {
   enumerable: true,
   get: function get() {
@@ -217,6 +223,12 @@ Object.defineProperty(exports, "LoadingOutlined", {
   enumerable: true,
   get: function get() {
     return _LoadingOutlined["default"];
+  }
+});
+Object.defineProperty(exports, "MinusCircleOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _MinusCircleOutlined["default"];
   }
 });
 Object.defineProperty(exports, "MinusSquareOutlined", {
@@ -277,6 +289,12 @@ Object.defineProperty(exports, "StarFilled", {
   enumerable: true,
   get: function get() {
     return _StarFilled["default"];
+  }
+});
+Object.defineProperty(exports, "VerticalAlignTopOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _VerticalAlignTopOutlined["default"];
   }
 });
 Object.defineProperty(exports, "UpOutlined", {
@@ -340,6 +358,8 @@ var _EyeInvisibleOutlined = _interopRequireDefault(require("./EyeInvisibleOutlin
 
 var _EyeOutlined = _interopRequireDefault(require("./EyeOutlined"));
 
+var _EyeTwoTone = _interopRequireDefault(require("./EyeTwoTone"));
+
 var _FileOutlined = _interopRequireDefault(require("./FileOutlined"));
 
 var _FileTwoTone = _interopRequireDefault(require("./FileTwoTone"));
@@ -357,6 +377,8 @@ var _InfoCircleOutlined = _interopRequireDefault(require("./InfoCircleOutlined")
 var _LeftOutlined = _interopRequireDefault(require("./LeftOutlined"));
 
 var _LoadingOutlined = _interopRequireDefault(require("./LoadingOutlined"));
+
+var _MinusCircleOutlined = _interopRequireDefault(require("./MinusCircleOutlined"));
 
 var _MinusSquareOutlined = _interopRequireDefault(require("./MinusSquareOutlined"));
 
@@ -377,6 +399,8 @@ var _SearchOutlined = _interopRequireDefault(require("./SearchOutlined"));
 var _SmileOutlined = _interopRequireDefault(require("./SmileOutlined"));
 
 var _StarFilled = _interopRequireDefault(require("./StarFilled"));
+
+var _VerticalAlignTopOutlined = _interopRequireDefault(require("./VerticalAlignTopOutlined"));
 
 var _UpOutlined = _interopRequireDefault(require("./UpOutlined"));
 

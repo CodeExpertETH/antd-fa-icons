@@ -45,7 +45,7 @@ var Icon = function Icon(props, ref) {
     msTransform: "rotate(".concat(rotate, "deg)"),
     transform: "rotate(".concat(rotate, "deg)")
   } : undefined;
-  return _react["default"].createElement("span", _extends({
+  return /*#__PURE__*/_react["default"].createElement("span", _extends({
     role: "img",
     "aria-label": icon.name
   }, restProps, {
@@ -53,7 +53,7 @@ var Icon = function Icon(props, ref) {
     tabIndex: iconTabIndex,
     onClick: onClick,
     className: classString
-  }), _react["default"].createElement(_reactFontawesome.FontAwesomeIcon, {
+  }), /*#__PURE__*/_react["default"].createElement(_reactFontawesome.FontAwesomeIcon, {
     ref: ref,
     icon: icon,
     className: svgClassString,
@@ -63,7 +63,7 @@ var Icon = function Icon(props, ref) {
 
 Icon.displayName = 'AntdIcon';
 
-var _default = _react["default"].forwardRef(Icon);
+var _default = /*#__PURE__*/_react["default"].forwardRef(Icon);
 
 exports["default"] = _default;
 module.exports = exports.default;
