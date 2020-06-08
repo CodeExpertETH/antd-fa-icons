@@ -3,6 +3,12 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+Object.defineProperty(exports, "AppstoreOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _AppstoreOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "ArrowLeftOutlined", {
   enumerable: true,
   get: function get() {
@@ -201,6 +207,12 @@ Object.defineProperty(exports, "FolderOutlined", {
     return _FolderOutlined["default"];
   }
 });
+Object.defineProperty(exports, "InboxOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _InboxOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "InfoCircleFilled", {
   enumerable: true,
   get: function get() {
@@ -231,6 +243,12 @@ Object.defineProperty(exports, "MinusCircleOutlined", {
     return _MinusCircleOutlined["default"];
   }
 });
+Object.defineProperty(exports, "MailOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _MailOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "MinusSquareOutlined", {
   enumerable: true,
   get: function get() {
@@ -247,6 +265,12 @@ Object.defineProperty(exports, "PictureTwoTone", {
   enumerable: true,
   get: function get() {
     return _PictureTwoTone["default"];
+  }
+});
+Object.defineProperty(exports, "PieChartOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _PieChartOutlined["default"];
   }
 });
 Object.defineProperty(exports, "PlusOutlined", {
@@ -309,6 +333,14 @@ Object.defineProperty(exports, "UpOutlined", {
     return _UpOutlined["default"];
   }
 });
+Object.defineProperty(exports, "UserOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _UserOutlined["default"];
+  }
+});
+
+var _AppstoreOutlined = _interopRequireDefault(require("./AppstoreOutlined"));
 
 var _ArrowLeftOutlined = _interopRequireDefault(require("./ArrowLeftOutlined"));
 
@@ -376,6 +408,8 @@ var _FolderOpenOutlined = _interopRequireDefault(require("./FolderOpenOutlined")
 
 var _FolderOutlined = _interopRequireDefault(require("./FolderOutlined"));
 
+var _InboxOutlined = _interopRequireDefault(require("./InboxOutlined"));
+
 var _InfoCircleFilled = _interopRequireDefault(require("./InfoCircleFilled"));
 
 var _InfoCircleOutlined = _interopRequireDefault(require("./InfoCircleOutlined"));
@@ -386,11 +420,15 @@ var _LoadingOutlined = _interopRequireDefault(require("./LoadingOutlined"));
 
 var _MinusCircleOutlined = _interopRequireDefault(require("./MinusCircleOutlined"));
 
+var _MailOutlined = _interopRequireDefault(require("./MailOutlined"));
+
 var _MinusSquareOutlined = _interopRequireDefault(require("./MinusSquareOutlined"));
 
 var _PaperClipOutlined = _interopRequireDefault(require("./PaperClipOutlined"));
 
 var _PictureTwoTone = _interopRequireDefault(require("./PictureTwoTone"));
+
+var _PieChartOutlined = _interopRequireDefault(require("./PieChartOutlined"));
 
 var _PlusOutlined = _interopRequireDefault(require("./PlusOutlined"));
 
@@ -411,5 +449,7 @@ var _SwapRightOutlined = _interopRequireDefault(require("./SwapRightOutlined"));
 var _VerticalAlignTopOutlined = _interopRequireDefault(require("./VerticalAlignTopOutlined"));
 
 var _UpOutlined = _interopRequireDefault(require("./UpOutlined"));
+
+var _UserOutlined = _interopRequireDefault(require("./UserOutlined"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
