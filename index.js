@@ -339,6 +339,12 @@ Object.defineProperty(exports, "UserOutlined", {
     return _UserOutlined["default"];
   }
 });
+Object.defineProperty(exports, "WarningFilled", {
+  enumerable: true,
+  get: function get() {
+    return _WarningFilled["default"];
+  }
+});
 
 var _AppstoreOutlined = _interopRequireDefault(require("./AppstoreOutlined"));
 
@@ -451,5 +457,7 @@ var _VerticalAlignTopOutlined = _interopRequireDefault(require("./VerticalAlignT
 var _UpOutlined = _interopRequireDefault(require("./UpOutlined"));
 
 var _UserOutlined = _interopRequireDefault(require("./UserOutlined"));
+
+var _WarningFilled = _interopRequireDefault(require("./WarningFilled"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
