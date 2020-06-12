@@ -7,7 +7,7 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _freeRegularSvgIcons = require("@fortawesome/free- regular-svg-icons");
+var _faEnvelope = require("@fortawesome/free-regular-svg-icons/faEnvelope");
 
 var _AntdIcon = _interopRequireDefault(require("./components/AntdIcon"));
 
@@ -18,7 +18,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 var Icon = function Icon(props, ref) {
   return /*#__PURE__*/_react["default"].createElement(_AntdIcon["default"], _extends({}, props, {
     ref: ref,
-    icon: _freeRegularSvgIcons.faEnvelope
+    icon: _faEnvelope.faEnvelope
   }));
 };
 
