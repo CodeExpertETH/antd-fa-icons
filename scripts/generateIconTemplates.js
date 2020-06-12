@@ -20,7 +20,9 @@ const createIndexJs = (rows) => {
 
 const data = [];
 fs.createReadStream('./scripts/requiredIcons.csv')
-  .pipe(csv())
+  .pipe(csv({
+    mapValues: ({ value }) => value.trim(),
+  }))
   .on('data', (row) => {
     createTemplates(row);
     data.push(row);
