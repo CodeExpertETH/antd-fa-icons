@@ -297,6 +297,18 @@ Object.defineProperty(exports, "RightOutlined", {
     return _RightOutlined["default"];
   }
 });
+Object.defineProperty(exports, "RotateLeftOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _RotateLeftOutlined["default"];
+  }
+});
+Object.defineProperty(exports, "RotateRightOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _RotateRightOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "SearchOutlined", {
   enumerable: true,
   get: function get() {
@@ -343,6 +355,18 @@ Object.defineProperty(exports, "WarningFilled", {
   enumerable: true,
   get: function get() {
     return _WarningFilled["default"];
+  }
+});
+Object.defineProperty(exports, "ZoomInOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _ZoomInOutlined["default"];
+  }
+});
+Object.defineProperty(exports, "ZoomOutOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _ZoomOutOutlined["default"];
   }
 });
 
@@ -444,6 +468,10 @@ var _RedoOutlined = _interopRequireDefault(require("./RedoOutlined"));
 
 var _RightOutlined = _interopRequireDefault(require("./RightOutlined"));
 
+var _RotateLeftOutlined = _interopRequireDefault(require("./RotateLeftOutlined"));
+
+var _RotateRightOutlined = _interopRequireDefault(require("./RotateRightOutlined"));
+
 var _SearchOutlined = _interopRequireDefault(require("./SearchOutlined"));
 
 var _SmileOutlined = _interopRequireDefault(require("./SmileOutlined"));
@@ -459,5 +487,9 @@ var _UpOutlined = _interopRequireDefault(require("./UpOutlined"));
 var _UserOutlined = _interopRequireDefault(require("./UserOutlined"));
 
 var _WarningFilled = _interopRequireDefault(require("./WarningFilled"));
+
+var _ZoomInOutlined = _interopRequireDefault(require("./ZoomInOutlined"));
+
+var _ZoomOutOutlined = _interopRequireDefault(require("./ZoomOutOutlined"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
