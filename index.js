@@ -285,6 +285,12 @@ Object.defineProperty(exports, "PlusSquareOutlined", {
     return _PlusSquareOutlined["default"];
   }
 });
+Object.defineProperty(exports, "QuestionCircleOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _QuestionCircleOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "RedoOutlined", {
   enumerable: true,
   get: function get() {
@@ -463,6 +469,8 @@ var _PieChartOutlined = _interopRequireDefault(require("./PieChartOutlined"));
 var _PlusOutlined = _interopRequireDefault(require("./PlusOutlined"));
 
 var _PlusSquareOutlined = _interopRequireDefault(require("./PlusSquareOutlined"));
+
+var _QuestionCircleOutlined = _interopRequireDefault(require("./QuestionCircleOutlined"));
 
 var _RedoOutlined = _interopRequireDefault(require("./RedoOutlined"));
 
