@@ -38,6 +38,7 @@ InfoCircleFilled,faInfoCircle,solid,
 InfoCircleOutlined,faInfoCircle,solid,
 LeftOutlined,faChevronLeft,solid,
 LoadingOutlined,faSpinner,solid,spin
+MenuOutlined, faBars, solid,
 MinusCircleOutlined,faMinusCircle,solid,
 MailOutlined,faEnvelope,regular,
 MinusSquareOutlined,faMinusSquare,regular,
