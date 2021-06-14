@@ -7,7 +7,7 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _faQuestion = require("@fortawesome/free-regular-svg-icons/faQuestion");
+var _faQuestion = require("@fortawesome/free-solid-svg-icons/faQuestion");
 
 var _AntdIcon = _interopRequireDefault(require("./components/AntdIcon"));
 
