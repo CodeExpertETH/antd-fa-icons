@@ -7,7 +7,7 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _faChevronCircleDown = require("@fortawesome/free-solid-svg-icons/faChevronCircleDown");
+var _faChevronDown = require("@fortawesome/free-solid-svg-icons/faChevronDown");
 
 var _AntdIcon = _interopRequireDefault(require("./components/AntdIcon"));
 
@@ -18,7 +18,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 var Icon = function Icon(props, ref) {
   return /*#__PURE__*/_react["default"].createElement(_AntdIcon["default"], _extends({}, props, {
     ref: ref,
-    icon: _faChevronCircleDown.faChevronCircleDown
+    icon: _faChevronDown.faChevronDown
   }));
 };
 
