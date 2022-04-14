@@ -207,6 +207,12 @@ Object.defineProperty(exports, "FolderOutlined", {
     return _FolderOutlined["default"];
   }
 });
+Object.defineProperty(exports, "HolderOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _HolderOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "InboxOutlined", {
   enumerable: true,
   get: function get() {
@@ -455,6 +461,8 @@ var _FilterFilled = _interopRequireDefault(require("./FilterFilled"));
 var _FolderOpenOutlined = _interopRequireDefault(require("./FolderOpenOutlined"));
 
 var _FolderOutlined = _interopRequireDefault(require("./FolderOutlined"));
+
+var _HolderOutlined = _interopRequireDefault(require("./HolderOutlined"));
 
 var _InboxOutlined = _interopRequireDefault(require("./InboxOutlined"));
 
