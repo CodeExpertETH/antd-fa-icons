@@ -207,6 +207,12 @@ Object.defineProperty(exports, "FolderOutlined", {
     return _FolderOutlined["default"];
   }
 });
+Object.defineProperty(exports, "HolderOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _HolderOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "InboxOutlined", {
   enumerable: true,
   get: function get() {
@@ -235,6 +241,12 @@ Object.defineProperty(exports, "LoadingOutlined", {
   enumerable: true,
   get: function get() {
     return _LoadingOutlined["default"];
+  }
+});
+Object.defineProperty(exports, "MenuOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _MenuOutlined["default"];
   }
 });
 Object.defineProperty(exports, "MinusCircleOutlined", {
@@ -450,6 +462,8 @@ var _FolderOpenOutlined = _interopRequireDefault(require("./FolderOpenOutlined")
 
 var _FolderOutlined = _interopRequireDefault(require("./FolderOutlined"));
 
+var _HolderOutlined = _interopRequireDefault(require("./HolderOutlined"));
+
 var _InboxOutlined = _interopRequireDefault(require("./InboxOutlined"));
 
 var _InfoCircleFilled = _interopRequireDefault(require("./InfoCircleFilled"));
@@ -459,6 +473,8 @@ var _InfoCircleOutlined = _interopRequireDefault(require("./InfoCircleOutlined")
 var _LeftOutlined = _interopRequireDefault(require("./LeftOutlined"));
 
 var _LoadingOutlined = _interopRequireDefault(require("./LoadingOutlined"));
+
+var _MenuOutlined = _interopRequireDefault(require("./MenuOutlined"));
 
 var _MinusCircleOutlined = _interopRequireDefault(require("./MinusCircleOutlined"));
 

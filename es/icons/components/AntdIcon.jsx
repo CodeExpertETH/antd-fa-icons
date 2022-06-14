@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
 
 
-const Icon = (props, ref) => {
+const Icon = (props) => {
   const {
     // affect outter <i>...</i>
     className,
@@ -51,16 +51,15 @@ const Icon = (props, ref) => {
       role="img"
       aria-label={icon.name}
       {...restProps}
-      ref={ref}
       tabIndex={iconTabIndex}
       onClick={onClick}
       className={classString}
     >
-       <Fa ref={ref} icon={icon} className={svgClassString} style={svgStyle} />
+       <Fa icon={icon} className={svgClassString} style={svgStyle} />
     </span>
   );
 };
 
 Icon.displayName = 'AntdIcon';
 
-export default React.forwardRef(Icon);
+export default Icon;

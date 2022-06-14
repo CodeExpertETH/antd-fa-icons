@@ -21,7 +21,7 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
-var Icon = function Icon(props, ref) {
+var Icon = function Icon(props) {
   var className = props.className,
       icon = props.icon,
       spin = props.spin,
@@ -49,12 +49,10 @@ var Icon = function Icon(props, ref) {
     role: "img",
     "aria-label": icon.name
   }, restProps, {
-    ref: ref,
     tabIndex: iconTabIndex,
     onClick: onClick,
     className: classString
   }), /*#__PURE__*/_react["default"].createElement(_reactFontawesome.FontAwesomeIcon, {
-    ref: ref,
     icon: icon,
     className: svgClassString,
     style: svgStyle
@@ -62,8 +60,6 @@ var Icon = function Icon(props, ref) {
 };
 
 Icon.displayName = 'AntdIcon';
-
-var _default = /*#__PURE__*/_react["default"].forwardRef(Icon);
-
+var _default = Icon;
 exports["default"] = _default;
 module.exports = exports.default;
