@@ -243,12 +243,6 @@ Object.defineProperty(exports, "LoadingOutlined", {
     return _LoadingOutlined["default"];
   }
 });
-Object.defineProperty(exports, "MailOutlined", {
-  enumerable: true,
-  get: function get() {
-    return _MailOutlined["default"];
-  }
-});
 Object.defineProperty(exports, "MenuOutlined", {
   enumerable: true,
   get: function get() {
@@ -259,6 +253,12 @@ Object.defineProperty(exports, "MinusCircleOutlined", {
   enumerable: true,
   get: function get() {
     return _MinusCircleOutlined["default"];
+  }
+});
+Object.defineProperty(exports, "MailOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _MailOutlined["default"];
   }
 });
 Object.defineProperty(exports, "MinusSquareOutlined", {
@@ -357,6 +357,12 @@ Object.defineProperty(exports, "SwapRightOutlined", {
     return _SwapRightOutlined["default"];
   }
 });
+Object.defineProperty(exports, "VerticalAlignTopOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _VerticalAlignTopOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "UpOutlined", {
   enumerable: true,
   get: function get() {
@@ -367,12 +373,6 @@ Object.defineProperty(exports, "UserOutlined", {
   enumerable: true,
   get: function get() {
     return _UserOutlined["default"];
-  }
-});
-Object.defineProperty(exports, "VerticalAlignTopOutlined", {
-  enumerable: true,
-  get: function get() {
-    return _VerticalAlignTopOutlined["default"];
   }
 });
 Object.defineProperty(exports, "WarningFilled", {

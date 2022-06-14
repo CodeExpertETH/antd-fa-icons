@@ -3,6 +3,6 @@ import { <%= FaIcon %> as icon } from '@fortawesome/free-<%= FaType %>-svg-icons
 import AntdIcon from "./components/AntdIcon";
 
 
-const Icon = (props, ref) => <AntdIcon <%= Props %> {...props} ref={ref} icon={icon} />;
+const Icon = (props) => <AntdIcon <%= Props %> {...props} icon={icon} />;
 
-export default React.forwardRef(Icon);
+export default Icon;
