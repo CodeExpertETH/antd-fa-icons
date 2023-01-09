@@ -189,6 +189,12 @@ Object.defineProperty(exports, "FileOutlined", {
     return _FileOutlined["default"];
   }
 });
+Object.defineProperty(exports, "FileTextOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _FileTextOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "FileTwoTone", {
   enumerable: true,
   get: function get() {
@@ -463,6 +469,8 @@ var _EyeTwoTone = _interopRequireDefault(require("./EyeTwoTone"));
 var _FileOutlined = _interopRequireDefault(require("./FileOutlined"));
 
 var _FileTwoTone = _interopRequireDefault(require("./FileTwoTone"));
+
+var _FileTextOutlined = _interopRequireDefault(require("./FileTextOutlined"));
 
 var _FilterFilled = _interopRequireDefault(require("./FilterFilled"));
 
