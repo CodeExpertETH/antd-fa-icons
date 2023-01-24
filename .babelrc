@@ -3,6 +3,9 @@
     "@babel/preset-env",
     "@babel/preset-react"
   ],
+  "targets": {
+    "esmodules": true
+  },
   "plugins": [
     "add-module-exports",
     "@babel/plugin-transform-runtime",
