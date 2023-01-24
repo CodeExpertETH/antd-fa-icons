@@ -4,10 +4,12 @@
     "@babel/preset-react"
   ],
   "targets": {
-    "esmodules": true
+    "edge": "97",
+    "firefox": "90",
+    "chrome": "97",
+    "safari": "16"
   },
   "plugins": [
-    "add-module-exports",
     "@babel/plugin-transform-runtime",
     ["transform-imports", {
       "@fortawesome/free-solid-svg-icons": {

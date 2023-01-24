@@ -9,9 +9,8 @@ var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends")
 var _react = _interopRequireDefault(require("react"));
 var _faQuestion = require("@fortawesome/free-solid-svg-icons/faQuestion");
 var _AntdIcon = _interopRequireDefault(require("./components/AntdIcon"));
-var Icon = props => /*#__PURE__*/_react.default.createElement(_AntdIcon.default, (0, _extends2.default)({}, props, {
+const Icon = props => /*#__PURE__*/_react.default.createElement(_AntdIcon.default, (0, _extends2.default)({}, props, {
   icon: _faQuestion.faQuestion
 }));
 var _default = Icon;
 exports.default = _default;
-module.exports = exports.default;

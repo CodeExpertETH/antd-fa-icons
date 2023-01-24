@@ -6,403 +6,403 @@ Object.defineProperty(exports, "__esModule", {
 });
 Object.defineProperty(exports, "AppstoreOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _AppstoreOutlined.default;
   }
 });
 Object.defineProperty(exports, "ArrowLeftOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _ArrowLeftOutlined.default;
   }
 });
 Object.defineProperty(exports, "ArrowRightOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _ArrowRightOutlined.default;
   }
 });
 Object.defineProperty(exports, "BarsOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _BarsOutlined.default;
   }
 });
 Object.defineProperty(exports, "CalendarOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CalendarOutlined.default;
   }
 });
 Object.defineProperty(exports, "CaretDownFilled", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CaretDownFilled.default;
   }
 });
 Object.defineProperty(exports, "CaretDownOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CaretDownOutlined.default;
   }
 });
 Object.defineProperty(exports, "CaretUpOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CaretUpOutlined.default;
   }
 });
 Object.defineProperty(exports, "CheckCircleFilled", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CheckCircleFilled.default;
   }
 });
 Object.defineProperty(exports, "CheckCircleOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CheckCircleOutlined.default;
   }
 });
 Object.defineProperty(exports, "CheckOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CheckOutlined.default;
   }
 });
 Object.defineProperty(exports, "ClockCircleOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _ClockCircleOutlined.default;
   }
 });
 Object.defineProperty(exports, "CloseCircleFilled", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CloseCircleFilled.default;
   }
 });
 Object.defineProperty(exports, "CloseCircleOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CloseCircleOutlined.default;
   }
 });
 Object.defineProperty(exports, "CloseOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CloseOutlined.default;
   }
 });
 Object.defineProperty(exports, "CopyOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _CopyOutlined.default;
   }
 });
 Object.defineProperty(exports, "DeleteOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _DeleteOutlined.default;
   }
 });
 Object.defineProperty(exports, "DotChartOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _DotChartOutlined.default;
   }
 });
 Object.defineProperty(exports, "DoubleLeftOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _DoubleLeftOutlined.default;
   }
 });
 Object.defineProperty(exports, "DoubleRightOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _DoubleRightOutlined.default;
   }
 });
 Object.defineProperty(exports, "DownOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _DownOutlined.default;
   }
 });
 Object.defineProperty(exports, "DownloadOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _DownloadOutlined.default;
   }
 });
 Object.defineProperty(exports, "EditOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _EditOutlined.default;
   }
 });
 Object.defineProperty(exports, "EllipsisOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _EllipsisOutlined.default;
   }
 });
 Object.defineProperty(exports, "EnterOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _EnterOutlined.default;
   }
 });
 Object.defineProperty(exports, "ExclamationCircleFilled", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _ExclamationCircleFilled.default;
   }
 });
 Object.defineProperty(exports, "ExclamationCircleOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _ExclamationCircleOutlined.default;
   }
 });
 Object.defineProperty(exports, "EyeInvisibleOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _EyeInvisibleOutlined.default;
   }
 });
 Object.defineProperty(exports, "EyeOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _EyeOutlined.default;
   }
 });
 Object.defineProperty(exports, "EyeTwoTone", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _EyeTwoTone.default;
   }
 });
 Object.defineProperty(exports, "FileOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _FileOutlined.default;
   }
 });
 Object.defineProperty(exports, "FileTextOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _FileTextOutlined.default;
   }
 });
 Object.defineProperty(exports, "FileTwoTone", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _FileTwoTone.default;
   }
 });
 Object.defineProperty(exports, "FilterFilled", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _FilterFilled.default;
   }
 });
 Object.defineProperty(exports, "FolderOpenOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _FolderOpenOutlined.default;
   }
 });
 Object.defineProperty(exports, "FolderOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _FolderOutlined.default;
   }
 });
 Object.defineProperty(exports, "HolderOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _HolderOutlined.default;
   }
 });
 Object.defineProperty(exports, "InboxOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _InboxOutlined.default;
   }
 });
 Object.defineProperty(exports, "InfoCircleFilled", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _InfoCircleFilled.default;
   }
 });
 Object.defineProperty(exports, "InfoCircleOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _InfoCircleOutlined.default;
   }
 });
 Object.defineProperty(exports, "LeftOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _LeftOutlined.default;
   }
 });
 Object.defineProperty(exports, "LoadingOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _LoadingOutlined.default;
   }
 });
 Object.defineProperty(exports, "MailOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _MailOutlined.default;
   }
 });
 Object.defineProperty(exports, "MenuOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _MenuOutlined.default;
   }
 });
 Object.defineProperty(exports, "MinusCircleOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _MinusCircleOutlined.default;
   }
 });
 Object.defineProperty(exports, "MinusSquareOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _MinusSquareOutlined.default;
   }
 });
 Object.defineProperty(exports, "PaperClipOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _PaperClipOutlined.default;
   }
 });
 Object.defineProperty(exports, "PictureTwoTone", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _PictureTwoTone.default;
   }
 });
 Object.defineProperty(exports, "PieChartOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _PieChartOutlined.default;
   }
 });
 Object.defineProperty(exports, "PlusOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _PlusOutlined.default;
   }
 });
 Object.defineProperty(exports, "PlusSquareOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _PlusSquareOutlined.default;
   }
 });
 Object.defineProperty(exports, "QuestionCircleOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _QuestionCircleOutlined.default;
   }
 });
 Object.defineProperty(exports, "QuestionOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _QuestionOutlined.default;
   }
 });
 Object.defineProperty(exports, "RedoOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _RedoOutlined.default;
   }
 });
 Object.defineProperty(exports, "RightOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _RightOutlined.default;
   }
 });
 Object.defineProperty(exports, "RotateLeftOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _RotateLeftOutlined.default;
   }
 });
 Object.defineProperty(exports, "RotateRightOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _RotateRightOutlined.default;
   }
 });
 Object.defineProperty(exports, "SearchOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _SearchOutlined.default;
   }
 });
 Object.defineProperty(exports, "SmileOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _SmileOutlined.default;
   }
 });
 Object.defineProperty(exports, "StarFilled", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _StarFilled.default;
   }
 });
 Object.defineProperty(exports, "SwapRightOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _SwapRightOutlined.default;
   }
 });
 Object.defineProperty(exports, "UpOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _UpOutlined.default;
   }
 });
 Object.defineProperty(exports, "UserOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _UserOutlined.default;
   }
 });
 Object.defineProperty(exports, "VerticalAlignTopOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _VerticalAlignTopOutlined.default;
   }
 });
 Object.defineProperty(exports, "WarningFilled", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _WarningFilled.default;
   }
 });
 Object.defineProperty(exports, "ZoomInOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _ZoomInOutlined.default;
   }
 });
 Object.defineProperty(exports, "ZoomOutOutlined", {
   enumerable: true,
-  get: function get() {
+  get: function () {
     return _ZoomOutOutlined.default;
   }
 });
