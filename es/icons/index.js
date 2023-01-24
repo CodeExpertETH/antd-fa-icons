@@ -1,5 +1,6 @@
 "use strict";
 
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -405,139 +406,70 @@ Object.defineProperty(exports, "ZoomOutOutlined", {
     return _ZoomOutOutlined["default"];
   }
 });
-
 var _AppstoreOutlined = _interopRequireDefault(require("./AppstoreOutlined"));
-
 var _ArrowLeftOutlined = _interopRequireDefault(require("./ArrowLeftOutlined"));
-
 var _ArrowRightOutlined = _interopRequireDefault(require("./ArrowRightOutlined"));
-
 var _BarsOutlined = _interopRequireDefault(require("./BarsOutlined"));
-
 var _CalendarOutlined = _interopRequireDefault(require("./CalendarOutlined"));
-
 var _CaretDownFilled = _interopRequireDefault(require("./CaretDownFilled"));
-
 var _CaretDownOutlined = _interopRequireDefault(require("./CaretDownOutlined"));
-
 var _CaretUpOutlined = _interopRequireDefault(require("./CaretUpOutlined"));
-
 var _CheckCircleFilled = _interopRequireDefault(require("./CheckCircleFilled"));
-
 var _CheckCircleOutlined = _interopRequireDefault(require("./CheckCircleOutlined"));
-
 var _CheckOutlined = _interopRequireDefault(require("./CheckOutlined"));
-
 var _ClockCircleOutlined = _interopRequireDefault(require("./ClockCircleOutlined"));
-
 var _CloseCircleFilled = _interopRequireDefault(require("./CloseCircleFilled"));
-
 var _CloseCircleOutlined = _interopRequireDefault(require("./CloseCircleOutlined"));
-
 var _CloseOutlined = _interopRequireDefault(require("./CloseOutlined"));
-
 var _CopyOutlined = _interopRequireDefault(require("./CopyOutlined"));
-
 var _DeleteOutlined = _interopRequireDefault(require("./DeleteOutlined"));
-
 var _DotChartOutlined = _interopRequireDefault(require("./DotChartOutlined"));
-
 var _DoubleLeftOutlined = _interopRequireDefault(require("./DoubleLeftOutlined"));
-
 var _DoubleRightOutlined = _interopRequireDefault(require("./DoubleRightOutlined"));
-
 var _DownOutlined = _interopRequireDefault(require("./DownOutlined"));
-
 var _DownloadOutlined = _interopRequireDefault(require("./DownloadOutlined"));
-
 var _EditOutlined = _interopRequireDefault(require("./EditOutlined"));
-
 var _EllipsisOutlined = _interopRequireDefault(require("./EllipsisOutlined"));
-
 var _EnterOutlined = _interopRequireDefault(require("./EnterOutlined"));
-
 var _ExclamationCircleFilled = _interopRequireDefault(require("./ExclamationCircleFilled"));
-
 var _ExclamationCircleOutlined = _interopRequireDefault(require("./ExclamationCircleOutlined"));
-
 var _EyeInvisibleOutlined = _interopRequireDefault(require("./EyeInvisibleOutlined"));
-
 var _EyeOutlined = _interopRequireDefault(require("./EyeOutlined"));
-
 var _EyeTwoTone = _interopRequireDefault(require("./EyeTwoTone"));
-
 var _FileOutlined = _interopRequireDefault(require("./FileOutlined"));
-
 var _FileTextOutlined = _interopRequireDefault(require("./FileTextOutlined"));
-
 var _FileTwoTone = _interopRequireDefault(require("./FileTwoTone"));
-
 var _FilterFilled = _interopRequireDefault(require("./FilterFilled"));
-
 var _FolderOpenOutlined = _interopRequireDefault(require("./FolderOpenOutlined"));
-
 var _FolderOutlined = _interopRequireDefault(require("./FolderOutlined"));
-
 var _HolderOutlined = _interopRequireDefault(require("./HolderOutlined"));
-
 var _InboxOutlined = _interopRequireDefault(require("./InboxOutlined"));
-
 var _InfoCircleFilled = _interopRequireDefault(require("./InfoCircleFilled"));
-
 var _InfoCircleOutlined = _interopRequireDefault(require("./InfoCircleOutlined"));
-
 var _LeftOutlined = _interopRequireDefault(require("./LeftOutlined"));
-
 var _LoadingOutlined = _interopRequireDefault(require("./LoadingOutlined"));
-
 var _MailOutlined = _interopRequireDefault(require("./MailOutlined"));
-
 var _MenuOutlined = _interopRequireDefault(require("./MenuOutlined"));
-
 var _MinusCircleOutlined = _interopRequireDefault(require("./MinusCircleOutlined"));
-
 var _MinusSquareOutlined = _interopRequireDefault(require("./MinusSquareOutlined"));
-
 var _PaperClipOutlined = _interopRequireDefault(require("./PaperClipOutlined"));
-
 var _PictureTwoTone = _interopRequireDefault(require("./PictureTwoTone"));
-
 var _PieChartOutlined = _interopRequireDefault(require("./PieChartOutlined"));
-
 var _PlusOutlined = _interopRequireDefault(require("./PlusOutlined"));
-
 var _PlusSquareOutlined = _interopRequireDefault(require("./PlusSquareOutlined"));
-
 var _QuestionCircleOutlined = _interopRequireDefault(require("./QuestionCircleOutlined"));
-
 var _QuestionOutlined = _interopRequireDefault(require("./QuestionOutlined"));
-
 var _RedoOutlined = _interopRequireDefault(require("./RedoOutlined"));
-
 var _RightOutlined = _interopRequireDefault(require("./RightOutlined"));
-
 var _RotateLeftOutlined = _interopRequireDefault(require("./RotateLeftOutlined"));
-
 var _RotateRightOutlined = _interopRequireDefault(require("./RotateRightOutlined"));
-
 var _SearchOutlined = _interopRequireDefault(require("./SearchOutlined"));
-
 var _SmileOutlined = _interopRequireDefault(require("./SmileOutlined"));
-
 var _StarFilled = _interopRequireDefault(require("./StarFilled"));
-
 var _SwapRightOutlined = _interopRequireDefault(require("./SwapRightOutlined"));
-
 var _UpOutlined = _interopRequireDefault(require("./UpOutlined"));
-
 var _UserOutlined = _interopRequireDefault(require("./UserOutlined"));
-
 var _VerticalAlignTopOutlined = _interopRequireDefault(require("./VerticalAlignTopOutlined"));
-
 var _WarningFilled = _interopRequireDefault(require("./WarningFilled"));
-
 var _ZoomInOutlined = _interopRequireDefault(require("./ZoomInOutlined"));
-
 var _ZoomOutOutlined = _interopRequireDefault(require("./ZoomOutOutlined"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }

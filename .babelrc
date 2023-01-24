@@ -5,6 +5,7 @@
   ],
   "plugins": [
     "add-module-exports",
+    "@babel/plugin-transform-runtime",
     ["transform-imports", {
       "@fortawesome/free-solid-svg-icons": {
         "transform": "@fortawesome/free-solid-svg-icons/${member}",
