@@ -18,7 +18,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "@fortawesome/react-fontawesome": "^0.2.0"
+    "react-fontawesome-svg-icon": "^1.1.2"
   },
   "dependencies": {
     "@babel/preset-env": "^7.20.2",

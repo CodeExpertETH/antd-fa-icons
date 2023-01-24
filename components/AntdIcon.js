@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _classnames = _interopRequireDefault(require("classnames"));
 
-var _reactFontawesome = require("@fortawesome/react-fontawesome");
+var _reactFontawesome = require("react-fontawesome-svg-icon");
 
 var _excluded = ["className", "icon", "spin", "rotate", "tabIndex", "onClick", "twoToneColor"];
 
@@ -54,7 +54,7 @@ var Icon = function Icon(props) {
     tabIndex: iconTabIndex,
     onClick: onClick,
     className: classString
-  }), /*#__PURE__*/_react["default"].createElement(_reactFontawesome.FontAwesomeIcon, {
+  }), /*#__PURE__*/_react["default"].createElement(_reactFontawesome.FontAwesomeSvgIcon, {
     icon: icon,
     className: svgClassString,
     style: svgStyle

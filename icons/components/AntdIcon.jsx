@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
+import { FontAwesomeSvgIcon as Fa } from "react-fontawesome-svg-icon";
 
 
 const Icon = (props) => {

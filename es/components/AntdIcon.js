@@ -9,7 +9,9 @@ var _react = _interopRequireDefault(require("react"));
 
 var _classnames = _interopRequireDefault(require("classnames"));
 
-var _reactFontawesome = require("@fortawesome/react-fontawesome");
+var _reactFontawesome = require("react-fontawesome-svg-icon");
+
+var _excluded = ["className", "icon", "spin", "rotate", "tabIndex", "onClick", "twoToneColor"];
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -29,7 +31,7 @@ var Icon = function Icon(props) {
       tabIndex = props.tabIndex,
       onClick = props.onClick,
       twoToneColor = props.twoToneColor,
-      restProps = _objectWithoutProperties(props, ["className", "icon", "spin", "rotate", "tabIndex", "onClick", "twoToneColor"]);
+      restProps = _objectWithoutProperties(props, _excluded);
 
   var classString = (0, _classnames["default"])('anticon', _defineProperty({}, "anticon-".concat(icon.name), Boolean(icon.name)), className);
   var svgClassString = (0, _classnames["default"])({
@@ -52,7 +54,7 @@ var Icon = function Icon(props) {
     tabIndex: iconTabIndex,
     onClick: onClick,
     className: classString
-  }), /*#__PURE__*/_react["default"].createElement(_reactFontawesome.FontAwesomeIcon, {
+  }), /*#__PURE__*/_react["default"].createElement(_reactFontawesome.FontAwesomeSvgIcon, {
     icon: icon,
     className: svgClassString,
     style: svgStyle
