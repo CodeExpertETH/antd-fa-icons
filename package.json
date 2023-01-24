@@ -2,11 +2,12 @@
   "name": "@code-expert/antd-fa-icons",
   "version": "5.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./es/icons/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "createTemplates": "node ./scripts/generateIconTemplates.js",
-    "build": "npm run clean-build && npm run createTemplates && babel ./icons -d . && npm run clean-prepublish",
+    "build": "npm run clean-build && npm run createTemplates && babel ./icons -d . && npm run copy-prepublish && npm run clean-prepublish && npm run clean-build",
+    "copy-prepublish": "cp -f ./*.js ./es/icons/",
     "clean-build": "rm -rf ./*.js",
     "clean-prepublish": "rm -rf ./icons/*.*"
   },

@@ -105,6 +105,12 @@ Object.defineProperty(exports, "DeleteOutlined", {
     return _DeleteOutlined["default"];
   }
 });
+Object.defineProperty(exports, "DotChartOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _DotChartOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "DoubleLeftOutlined", {
   enumerable: true,
   get: function get() {
@@ -183,6 +189,12 @@ Object.defineProperty(exports, "FileOutlined", {
     return _FileOutlined["default"];
   }
 });
+Object.defineProperty(exports, "FileTextOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _FileTextOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "FileTwoTone", {
   enumerable: true,
   get: function get() {
@@ -243,6 +255,12 @@ Object.defineProperty(exports, "LoadingOutlined", {
     return _LoadingOutlined["default"];
   }
 });
+Object.defineProperty(exports, "MailOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _MailOutlined["default"];
+  }
+});
 Object.defineProperty(exports, "MenuOutlined", {
   enumerable: true,
   get: function get() {
@@ -253,12 +271,6 @@ Object.defineProperty(exports, "MinusCircleOutlined", {
   enumerable: true,
   get: function get() {
     return _MinusCircleOutlined["default"];
-  }
-});
-Object.defineProperty(exports, "MailOutlined", {
-  enumerable: true,
-  get: function get() {
-    return _MailOutlined["default"];
   }
 });
 Object.defineProperty(exports, "MinusSquareOutlined", {
@@ -357,12 +369,6 @@ Object.defineProperty(exports, "SwapRightOutlined", {
     return _SwapRightOutlined["default"];
   }
 });
-Object.defineProperty(exports, "VerticalAlignTopOutlined", {
-  enumerable: true,
-  get: function get() {
-    return _VerticalAlignTopOutlined["default"];
-  }
-});
 Object.defineProperty(exports, "UpOutlined", {
   enumerable: true,
   get: function get() {
@@ -373,6 +379,12 @@ Object.defineProperty(exports, "UserOutlined", {
   enumerable: true,
   get: function get() {
     return _UserOutlined["default"];
+  }
+});
+Object.defineProperty(exports, "VerticalAlignTopOutlined", {
+  enumerable: true,
+  get: function get() {
+    return _VerticalAlignTopOutlined["default"];
   }
 });
 Object.defineProperty(exports, "WarningFilled", {
@@ -428,6 +440,8 @@ var _CopyOutlined = _interopRequireDefault(require("./CopyOutlined"));
 
 var _DeleteOutlined = _interopRequireDefault(require("./DeleteOutlined"));
 
+var _DotChartOutlined = _interopRequireDefault(require("./DotChartOutlined"));
+
 var _DoubleLeftOutlined = _interopRequireDefault(require("./DoubleLeftOutlined"));
 
 var _DoubleRightOutlined = _interopRequireDefault(require("./DoubleRightOutlined"));
@@ -454,6 +468,8 @@ var _EyeTwoTone = _interopRequireDefault(require("./EyeTwoTone"));
 
 var _FileOutlined = _interopRequireDefault(require("./FileOutlined"));
 
+var _FileTextOutlined = _interopRequireDefault(require("./FileTextOutlined"));
+
 var _FileTwoTone = _interopRequireDefault(require("./FileTwoTone"));
 
 var _FilterFilled = _interopRequireDefault(require("./FilterFilled"));
@@ -474,11 +490,11 @@ var _LeftOutlined = _interopRequireDefault(require("./LeftOutlined"));
 
 var _LoadingOutlined = _interopRequireDefault(require("./LoadingOutlined"));
 
+var _MailOutlined = _interopRequireDefault(require("./MailOutlined"));
+
 var _MenuOutlined = _interopRequireDefault(require("./MenuOutlined"));
 
 var _MinusCircleOutlined = _interopRequireDefault(require("./MinusCircleOutlined"));
-
-var _MailOutlined = _interopRequireDefault(require("./MailOutlined"));
 
 var _MinusSquareOutlined = _interopRequireDefault(require("./MinusSquareOutlined"));
 
@@ -512,11 +528,11 @@ var _StarFilled = _interopRequireDefault(require("./StarFilled"));
 
 var _SwapRightOutlined = _interopRequireDefault(require("./SwapRightOutlined"));
 
-var _VerticalAlignTopOutlined = _interopRequireDefault(require("./VerticalAlignTopOutlined"));
-
 var _UpOutlined = _interopRequireDefault(require("./UpOutlined"));
 
 var _UserOutlined = _interopRequireDefault(require("./UserOutlined"));
+
+var _VerticalAlignTopOutlined = _interopRequireDefault(require("./VerticalAlignTopOutlined"));
 
 var _WarningFilled = _interopRequireDefault(require("./WarningFilled"));
 

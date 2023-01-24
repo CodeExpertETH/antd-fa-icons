@@ -18,6 +18,7 @@ const createIndexJs = (rows) => {
   fs.writeFileSync('./icons/index.js', indexData.join('\n'));
 };
 
+
 const data = [];
 fs.createReadStream('./scripts/requiredIcons.csv')
   .pipe(csv({
