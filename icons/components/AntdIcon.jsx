@@ -55,7 +55,7 @@ const Icon = (props) => {
       onClick={onClick}
       className={classString}
     >
-       <Fa icon={icon} className={svgClassString} style={svgStyle} />
+       <Fa icon={icon}  data-icon={icon.name} className={svgClassString} style={svgStyle} />
     </span>
   );
 };

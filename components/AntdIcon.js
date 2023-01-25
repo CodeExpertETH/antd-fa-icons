@@ -46,6 +46,7 @@ const Icon = props => {
     className: classString
   }), /*#__PURE__*/_react.default.createElement(_reactFontawesomeSvgIcon.FontAwesomeSvgIcon, {
     icon: icon,
+    "data-icon": icon.name,
     className: svgClassString,
     style: svgStyle
   }));
