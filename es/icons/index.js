@@ -364,6 +364,12 @@ Object.defineProperty(exports, "StarFilled", {
     return _StarFilled.default;
   }
 });
+Object.defineProperty(exports, "SwapOutlined", {
+  enumerable: true,
+  get: function () {
+    return _SwapOutlined.default;
+  }
+});
 Object.defineProperty(exports, "SwapRightOutlined", {
   enumerable: true,
   get: function () {
@@ -467,6 +473,7 @@ var _SearchOutlined = _interopRequireDefault(require("./SearchOutlined"));
 var _SmileOutlined = _interopRequireDefault(require("./SmileOutlined"));
 var _StarFilled = _interopRequireDefault(require("./StarFilled"));
 var _SwapRightOutlined = _interopRequireDefault(require("./SwapRightOutlined"));
+var _SwapOutlined = _interopRequireDefault(require("./SwapOutlined"));
 var _UpOutlined = _interopRequireDefault(require("./UpOutlined"));
 var _UserOutlined = _interopRequireDefault(require("./UserOutlined"));
 var _VerticalAlignTopOutlined = _interopRequireDefault(require("./VerticalAlignTopOutlined"));
