@@ -328,6 +328,12 @@ Object.defineProperty(exports, "RedoOutlined", {
     return _RedoOutlined.default;
   }
 });
+Object.defineProperty(exports, "ReloadOutlined", {
+  enumerable: true,
+  get: function () {
+    return _ReloadOutlined.default;
+  }
+});
 Object.defineProperty(exports, "RightOutlined", {
   enumerable: true,
   get: function () {
@@ -465,6 +471,7 @@ var _PlusOutlined = _interopRequireDefault(require("./PlusOutlined"));
 var _PlusSquareOutlined = _interopRequireDefault(require("./PlusSquareOutlined"));
 var _QuestionCircleOutlined = _interopRequireDefault(require("./QuestionCircleOutlined"));
 var _QuestionOutlined = _interopRequireDefault(require("./QuestionOutlined"));
+var _ReloadOutlined = _interopRequireDefault(require("./ReloadOutlined"));
 var _RedoOutlined = _interopRequireDefault(require("./RedoOutlined"));
 var _RightOutlined = _interopRequireDefault(require("./RightOutlined"));
 var _RotateLeftOutlined = _interopRequireDefault(require("./RotateLeftOutlined"));
